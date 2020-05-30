@@ -1,0 +1,23 @@
+.p-panel-titlebar {
+    text-align: center;
+}
+
+.p-orderlist .p-orderlist-list {
+    height: 30em;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item i {
+    color: red;
+}
+
+.publication-button {
+    width: 83%;
+    margin-top: 10px;
+    margin-left: auto;
+}

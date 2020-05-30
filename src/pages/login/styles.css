@@ -1,0 +1,44 @@
+.container {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: #000020;
+}
+
+.card-login {
+    border-radius: 10px;
+    width: 35vw;
+}
+
+@media (max-width: 40em) {
+ .card-login {
+  width: 95vw; 
+ }
+}
+
+.password {
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+ text-align: center;
+ margin: 30px;
+ margin-top: 10px;
+ font-weight: bold;
+}
+
+h4 {
+ text-align: center;
+ margin: 20px;
+ font-weight: 500;
+}
+
+label {
+    font-weight: bold;
+}

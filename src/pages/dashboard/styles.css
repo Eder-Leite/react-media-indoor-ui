@@ -1,0 +1,35 @@
+.video-react .video-react-big-play-button {
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.video-react:hover .video-react-big-play-button, .video-react .video-react-big-play-button:focus{
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.video-react-seeking .video-react-loading-spinner, .video-react-waiting .video-react-loading-spinner {
+    display: none;
+}
+
+.video-react .video-react-poster {
+    /* background-size: cover; */
+}
+
+.player {
+    border: 3px solid black;
+    background-color: white;
+}
+  
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background: fixed;
+}
+  
+.video .video-react .video-react-video {
+    /* width: 80vw;
+    height: 70vh; */
+}

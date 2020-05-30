@@ -1,0 +1,50 @@
+input[type='file'] {
+  display: none
+}
+
+.input-file {
+  display: flex;
+  margin-left: 15px;
+}
+
+.input-file label {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: inherit;
+  background-color: #007ad9;
+  border: 1px solid #007ad9;
+  padding: 0.429em 1em 0.429em 10px;
+}
+
+.input-file label i {
+  margin-right: 5px;
+}
+.input-file label:hover {
+  background-color: #2980b9
+}
+
+.image {
+  border: 2px solid black;
+  background-color: white;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  border: 3px solid black;
+  background-color: white;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video .video-react .video-react-video {
+  /* width: 80vw;
+  height: 70vh; */
+}

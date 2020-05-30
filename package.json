@@ -2,13 +2,26 @@
   "name": "media-ui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/",
+  "proxy": "http://localhost:3333/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "0.19.0",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^2.2.0",
+    "primeflex": "^1.1.0",
+    "primeicons": "^3.0.0-rc.1",
+    "primereact": "^4.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",
